@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>Denisov_Train: Исходный файл D:/Denisov_LR3/Denisov_Console_App/Denisov_Class_train.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Denisov_Train
+   &#160;<span id="projectnumber">1.1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.8 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li><a href="annotated.html"><span>Классы</span></a></li>
+      <li class="current"><a href="files.html"><span>Файлы</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Файлы</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Указатель</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Классы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Файлы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Функции</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Переменные</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_da472c459b7cf65475e0e12c78a3e245.html">Denisov_LR3</a></li><li class="navelem"><a class="el" href="dir_17e69bf1bbf57059dc9140619d4133fa.html">Denisov_Console_App</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Denisov_Class_train.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_denisov___class__train_8h.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespacestd.html">std</a>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="class_denisov___class__train.html">   26</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_denisov___class__train.html">Denisov_Class_train</a></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="class_denisov___class__train.html#a9b53384f6b1fa1c5e7c2c5fbe83557cb">   29</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_denisov___class__train.html#a9b53384f6b1fa1c5e7c2c5fbe83557cb">_destination</a>;            </div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="class_denisov___class__train.html#a78b6d1f244ade0f16b5bc2783030a73f">   30</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_denisov___class__train.html#a78b6d1f244ade0f16b5bc2783030a73f">_train_number</a>;              </div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="class_denisov___class__train.html#ac963e90571352b56a3affc87fc322ee1">   31</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_denisov___class__train.html#ac963e90571352b56a3affc87fc322ee1">_departure_time</a>;         </div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="class_denisov___class__train.html#a416b6f95ddd1bb795335bfdbbb90d2f5">   32</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_denisov___class__train.html#a416b6f95ddd1bb795335bfdbbb90d2f5">_number_of_common_seates</a>;   </div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_denisov___class__train.html#ae05744878e121ee82fc5c289df74fedd">   33</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_denisov___class__train.html#ae05744878e121ee82fc5c289df74fedd">_number_of_reserved_seats</a>;  </div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="class_denisov___class__train.html#a01fd9e35e937e5f9b2538c11de355616">   34</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_denisov___class__train.html#a01fd9e35e937e5f9b2538c11de355616">_number_of_compartments</a>;    </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="class_denisov___class__train.html#ab0b7f29a9dc3b1c6d7fbb5d3df53c2ae">   42</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_denisov___class__train.html#ab0b7f29a9dc3b1c6d7fbb5d3df53c2ae">DenisovSearchPoezdaDoZadanogo</a>(<span class="keywordtype">int</span> train_number, <span class="keywordtype">string</span> destination) {</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="class_denisov___class__train.html#a2771731a6c3e1bc4ced8b015b4749268">   50</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_denisov___class__train.html#a2771731a6c3e1bc4ced8b015b4749268">DenisovSearchPoezdaDoZadanogoIDoChasa</a>(<span class="keywordtype">int</span> train_number, <span class="keywordtype">string</span> destination, <span class="keywordtype">string</span> departure_time) {</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    }</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="class_denisov___class__train.html#a3e0ed25d93015505a6308523d677740a">   56</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_denisov___class__train.html#a3e0ed25d93015505a6308523d677740a">DenisovSearchPoezdaDoZadanogoIObshieMesta</a>(<span class="keywordtype">int</span> train_number, <span class="keywordtype">string</span> destination, <span class="keywordtype">int</span> number_of_common_seates) {</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    }</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    ~<a class="code" href="class_denisov___class__train.html">Denisov_Class_train</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    </div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;};</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="ttc" id="namespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div><div class="ttdoc">Класс описания поездов </div></div>
+<div class="ttc" id="class_denisov___class__train_html_ac963e90571352b56a3affc87fc322ee1"><div class="ttname"><a href="class_denisov___class__train.html#ac963e90571352b56a3affc87fc322ee1">Denisov_Class_train::_departure_time</a></div><div class="ttdeci">string _departure_time</div><div class="ttdoc">Время отправления </div><div class="ttdef"><b>Definition:</b> Denisov_Class_train.h:31</div></div>
+<div class="ttc" id="class_denisov___class__train_html_a9b53384f6b1fa1c5e7c2c5fbe83557cb"><div class="ttname"><a href="class_denisov___class__train.html#a9b53384f6b1fa1c5e7c2c5fbe83557cb">Denisov_Class_train::_destination</a></div><div class="ttdeci">string _destination</div><div class="ttdoc">Пункт назначения </div><div class="ttdef"><b>Definition:</b> Denisov_Class_train.h:29</div></div>
+<div class="ttc" id="class_denisov___class__train_html_a2771731a6c3e1bc4ced8b015b4749268"><div class="ttname"><a href="class_denisov___class__train.html#a2771731a6c3e1bc4ced8b015b4749268">Denisov_Class_train::DenisovSearchPoezdaDoZadanogoIDoChasa</a></div><div class="ttdeci">void DenisovSearchPoezdaDoZadanogoIDoChasa(int train_number, string destination, string departure_time)</div><div class="ttdoc">Конструктор для заполнения списка поездами до заданного пункта и выбранного времени ...</div><div class="ttdef"><b>Definition:</b> Denisov_Class_train.h:50</div></div>
+<div class="ttc" id="class_denisov___class__train_html_ab0b7f29a9dc3b1c6d7fbb5d3df53c2ae"><div class="ttname"><a href="class_denisov___class__train.html#ab0b7f29a9dc3b1c6d7fbb5d3df53c2ae">Denisov_Class_train::DenisovSearchPoezdaDoZadanogo</a></div><div class="ttdeci">void DenisovSearchPoezdaDoZadanogo(int train_number, string destination)</div><div class="ttdoc">Конструктор для заполнения списка поездами до заданного пункта </div><div class="ttdef"><b>Definition:</b> Denisov_Class_train.h:42</div></div>
+<div class="ttc" id="class_denisov___class__train_html_a78b6d1f244ade0f16b5bc2783030a73f"><div class="ttname"><a href="class_denisov___class__train.html#a78b6d1f244ade0f16b5bc2783030a73f">Denisov_Class_train::_train_number</a></div><div class="ttdeci">int _train_number</div><div class="ttdoc">Номер поезда </div><div class="ttdef"><b>Definition:</b> Denisov_Class_train.h:30</div></div>
+<div class="ttc" id="class_denisov___class__train_html"><div class="ttname"><a href="class_denisov___class__train.html">Denisov_Class_train</a></div><div class="ttdef"><b>Definition:</b> Denisov_Class_train.h:26</div></div>
+<div class="ttc" id="class_denisov___class__train_html_a3e0ed25d93015505a6308523d677740a"><div class="ttname"><a href="class_denisov___class__train.html#a3e0ed25d93015505a6308523d677740a">Denisov_Class_train::DenisovSearchPoezdaDoZadanogoIObshieMesta</a></div><div class="ttdeci">void DenisovSearchPoezdaDoZadanogoIObshieMesta(int train_number, string destination, int number_of_common_seates)</div><div class="ttdoc">Конструктор для заполнения списка поездами до заданного пункта и имеющими общие места ...</div><div class="ttdef"><b>Definition:</b> Denisov_Class_train.h:56</div></div>
+<div class="ttc" id="class_denisov___class__train_html_ae05744878e121ee82fc5c289df74fedd"><div class="ttname"><a href="class_denisov___class__train.html#ae05744878e121ee82fc5c289df74fedd">Denisov_Class_train::_number_of_reserved_seats</a></div><div class="ttdeci">int _number_of_reserved_seats</div><div class="ttdoc">Число купейных мест </div><div class="ttdef"><b>Definition:</b> Denisov_Class_train.h:33</div></div>
+<div class="ttc" id="class_denisov___class__train_html_a416b6f95ddd1bb795335bfdbbb90d2f5"><div class="ttname"><a href="class_denisov___class__train.html#a416b6f95ddd1bb795335bfdbbb90d2f5">Denisov_Class_train::_number_of_common_seates</a></div><div class="ttdeci">int _number_of_common_seates</div><div class="ttdoc">Число общих мест </div><div class="ttdef"><b>Definition:</b> Denisov_Class_train.h:32</div></div>
+<div class="ttc" id="class_denisov___class__train_html_a01fd9e35e937e5f9b2538c11de355616"><div class="ttname"><a href="class_denisov___class__train.html#a01fd9e35e937e5f9b2538c11de355616">Denisov_Class_train::_number_of_compartments</a></div><div class="ttdeci">int _number_of_compartments</div><div class="ttdoc">Число плацкартных мест </div><div class="ttdef"><b>Definition:</b> Denisov_Class_train.h:34</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по Denisov_Train. Последние изменения: Вт 26 Дек 2023 01:19:53. Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.8
+</small></address>
+</body>
+</html>
